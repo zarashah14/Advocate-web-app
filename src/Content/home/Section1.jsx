@@ -13,7 +13,7 @@ function Section1(){
           <div className="ml-40 pt-20 flex pb-20 items-center ">
            { /*<div className="w-8 h-1 bg-[#1D4B5B]"></div>*/}<Line/>
             <p className="textbase text-gray-300 font-manrope leading-7 tracking-wider font-light ml-2">ADWOKAT TOMASZ LEŚNIK</p>
-          </div>
+           </div>
                  <div className="ml-40">
                    <p className="text-light font-manrope text-5xl font-normal leading-7 tracking-wide">Szybka, fachowa i skuteczna</p> 
                    <p className="text-light font-manrope text-5xl font-normal leading-7 tracking-wide mt-2">pomoc prawna</p>
