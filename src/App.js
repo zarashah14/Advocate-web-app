@@ -1,16 +1,15 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
 import { Route, Switch } from "react-router-dom";
 
-import Index from "./Content/home/Index"
-import about from './Content/About/about';
+import Index from "./Content/home/Index";
+import about from "./Content/About/about";
 function App() {
   return (
     <>
-       <Switch>
-      <Route exact path="/" component={Index} />
-      <Route exact path="/about" component={about} />
-     </Switch>
+      <Switch>
+        <Route exact path="/" component={Index} />
+      </Switch>
     </>
   );
 }
