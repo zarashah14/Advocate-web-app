@@ -9,10 +9,10 @@ function App() {
     <>
        <Switch>
       <Route exact path="/" component={Index} />
-      <Route exact path="/about" component={about} />
-     </Switch>
+      <Route exact path="/about" component={about} /> 
+       </Switch>
     </>
   );
 }
 
-export default App;
+export default App; 
