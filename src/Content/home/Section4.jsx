@@ -29,7 +29,7 @@ function Section4() {
               dzięki mojej pomocy.
             </p>
             <div className="px-4 py-3 max-w-[15rem] text-center bg-[#1D4B5B]">
-              <p className="text-light font-manrope text-base font-normal leading-tight">
+              <p className="text-light mb-6 md:mb-0 font-manrope text-base font-normal leading-tight">
                 Zostań moim klientem
               </p>
             </div>
