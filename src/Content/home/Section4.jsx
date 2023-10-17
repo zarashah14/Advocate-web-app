@@ -8,8 +8,8 @@ function Section4() {
   return (
     <Container>
       <div>
-        <div className="grid lg:grid-cols-2 mx-10">
-          <div className="flex flex-col mx-40">
+        <div className="grid lg:grid-cols-2 mx-4">
+          <div className="flex flex-col">
             <div className="flex">
               <Line />
               <p className="text-black dark:text-#1E2027 text-base font-manrope ml-2">
