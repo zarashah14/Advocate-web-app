@@ -50,8 +50,8 @@ function Section4() {
             </div>
           </div>
         </div>
-        <div className="flex items-center justify-center">
-          <div className="mt-20">
+        <div className="flex flex-col md:flex-row gap-6 md:gap-0 mt-20 items-center justify-between mx-8">
+          <div>
             <div className="flex items-center">
               <Line />
               <p className="text-black dark:text-#1E2027 text-base font-manrope ml-2">
@@ -62,95 +62,52 @@ function Section4() {
               Poszerzerz swoją wiedzę
             </h2>
           </div>
-
-          <div className="inline-flex p-2.5 px-0 mx-80 gap-10 bg-[#1D4B5B]">
+          <div className="bg-[#1D4B5B] px-4 py-2 rounded-lg">
             <p className="mx-6 text-light font-manrope text-base font-normal leading-tight w-60 px-8">
               Sprawdź wszystkie wpisy
             </p>
           </div>
+        </div>
+      </div>
 
-          {/* <div className="grid grid-cols-3 gap-10">
-            <div className="flex items-center justify-center shrink-0">
-              <div className=" mb-40 mt-8">
-                <div className="absolute w-[320px] h-[200px] bg-opacity-75 bg-dark">
-                  <img
-                    src={image3}
-                    alt="image3"
-                    className=" w-[320px] h-[200px]"
-                  />
-                </div>
-                <p className="absolute text-white font-manrope text-base font-normal leading-[130%] w-80 pt-28 px-10">
-                  Czy wysokość inflacji jest podstawą do podwyższenia alimentów?
-                </p>
-                <div className="bg-[#1D4B5B] bg-opacity-80 w-[320px] py-4 absolute grid grid-cols-2 mt-40 pt-0 pb-2 items-center">
-                  <div className="mx-10 pt-2">
-                    <p className="text-light font-manrope text-xs font-normal leading-[130%]">
-                      Tomasz Leśnik
-                    </p>{" "}
-                  </div>
-                  <div className="mx-10 pt-2">
-                    <p className="text-light font-manrope text-xs font-normal leading-[130%]">
-                      20.01.2022r
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+      <div className="grid md:grid-cols-3 mx-8 gap-3 mt-7 ">
+        <div
+          style={{
+            backgroundImage: `linear-gradient(rgba(0,0,0,0.8),
+          rgba(0,0,0,0.8)),url(${"images/card.png"})`,
+          }}
+        >
+          <p className="text-white pt-32 ml-5 max-w-[374px]">Czy wysokość inflacji jest podstawą do podwyższenia alimentów?</p>
+          <div className="flex items-center text-white py-1 justify-between mt-6 px-4 bg-[#1D4B5BBF]">
+            <span>necessitatibus</span>
+            <span>22/12/8</span>
+          </div>
+        </div>
 
-            <div className="flex items-center justify-center shrink-0">
-              <div className=" mb-40 mt-8">
-                <div className="absolute w-[320px] h-[200px] bg-opacity-75 bg-dark">
-                  <img
-                    src={image3}
-                    alt="image3"
-                    className=" w-[320px] h-[200px]"
-                  />
-                </div>
-                <p className="absolute text-white font-manrope text-base font-normal leading-[130%] w-80 pt-28 px-10">
-                  Czy wysokość inflacji jest podstawą do podwyższenia alimentów?
-                </p>
-                <div className="bg-[#1D4B5B] bg-opacity-80 w-[320px] py-4 absolute grid grid-cols-2 mt-40 pt-0 pb-2 items-center">
-                  <div className="mx-10 pt-2">
-                    <p className="text-light font-manrope text-xs font-normal leading-[130%]">
-                      Tomasz Leśnik
-                    </p>{" "}
-                  </div>
-                  <div className="mx-10 pt-2">
-                    <p className="text-light font-manrope text-xs font-normal leading-[130%]">
-                      20.01.2022r
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+        <div
+          style={{
+            backgroundImage: `linear-gradient(rgba(0,0,0,0.8),
+          rgba(0,0,0,0.8)),url(${"images/card.png"})`,
+          }}
+        >
+          <p className="text-white pt-32 ml-5 max-w-[374px]">Czy wysokość inflacji jest podstawą do podwyższenia alimentów?</p>
+          <div className="flex items-center text-white py-1 justify-between mt-6 px-4 bg-[#1D4B5BBF]">
+            <span>necessitatibus</span>
+            <span>22/12/8</span>
+          </div>
+        </div>
 
-            <div className=" flex items-center justify-center shrink-0">
-              <div className=" mb-40 mt-8">
-                <div className="absolute w-[320px] h-[200px] bg-opacity-75 bg-dark">
-                  <img
-                    src={image3}
-                    alt="image3"
-                    className=" w-[320px] h-[200px]"
-                  />
-                </div>
-                <p className="absolute text-white font-manrope text-base font-normal leading-[130%] w-80 pt-28 px-10">
-                  Czy wysokość inflacji jest podstawą do podwyższenia alimentów?
-                </p>
-                <div className="bg-[#1D4B5B] bg-opacity-80 w-[320px] py-4 absolute grid grid-cols-2 mt-40 pt-0 pb-2 items-center">
-                  <div className="mx-10 pt-2">
-                    <p className="text-light font-manrope text-xs font-normal leading-[130%]">
-                      Tomasz Leśnik
-                    </p>{" "}
-                  </div>
-                  <div className="mx-10 pt-2">
-                    <p className="text-light font-manrope text-xs font-normal leading-[130%]">
-                      20.01.2022r
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> */}
+        <div
+          style={{
+            backgroundImage: `linear-gradient(rgba(0,0,0,0.8),
+          rgba(0,0,0,0.8)),url(${"images/card.png"})`,
+          }}
+        >
+          <p className="text-white pt-32 ml-5 max-w-[374px]">Czy wysokość inflacji jest podstawą do podwyższenia alimentów?</p>
+          <div className="flex items-center py-1 text-white justify-between mt-6 px-4 bg-[#1D4B5BBF]">
+            <span>necessitatibus</span>
+            <span>22/12/8</span>
+          </div>
         </div>
       </div>
     </Container>

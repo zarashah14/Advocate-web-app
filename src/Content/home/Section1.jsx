@@ -18,7 +18,7 @@ function Section1() {
             </p>
           </div>
 
-          <h1 className="text-light font-manrope text-6xl">
+          <h1 className="text-light font-manrope md:text-6xl text-3xl">
             Szybka, fachowa i skuteczna <br /> pomoc prawna
           </h1>
 

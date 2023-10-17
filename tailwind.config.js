@@ -14,6 +14,9 @@ module.exports = {
       colors: {
         light: 'var(--light, #FFF)',
       },
+      backgroundImage: {
+        cards: "images/card.png"
+      }
      
      
     },

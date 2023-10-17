@@ -1,62 +1,58 @@
 import React from "react";
-import Container from '../MyContainer/Container';
+import Container from "../MyContainer/Container";
 import Logo from "../assests/Logo";
 import Vect1 from "../assests/Vect1";
 import Vect2 from "../assests/Vect2";
-//assests
-import Line from "../assests/Line"
-function Footer(){
 
-    return(
-        <Container>
-        <div className="bg-dark pb-2 mt-40">
-            <div className="pt-10  ml-20 space-x-12 mr-60 ">
-                <div className="flex items-center">
-           {/*<div className="bg-[#1D4B5B] w-8 h-2"/>*/}<Line/>
-                <p className="text-[#c7c7c7] font-normal font-manrope text-base leading-[170%] tracking-[0.51px] ml-2">KONSULTACJE</p>
-                </div>
-                <div className="">
-                <div className="inline-flex p-2.5 space-x-2.5 items-center justify-center bg-[#1D4B5B] ml-[880px]">
-                    <p className="text-[#C7C7C9] font-manrope text-base font-normal leading-[130%] flex">Zasięgnij porady online</p>
-                </div>
-               </div>
-               <h1 className="text-[#fffdfd] font-normal font-manrope text-base leading-[170%] tracking-[0.51px]">Potrzebujesz pomocy?</h1>
-            <div className="bg-gray-300 w-1283 h-1 " ></div>
-             <Logo/> 
 
-             <p className="text-[#FFF] font-manrope text-base font-normal leading-[130%]">Dane kontaktowe:</p>
-             <div className="flex  space-x-4 my-4">  
-             <Vect1/>     
-             <p className="text-[#C7C7C9] font-manrope text-base font-normal leading-[130%]">+48 739 00 34 34</p>
-             </div>
-             <div className="flex space-x-4 my-4">
-              <Vect2/>
-              <p className="text-[#C7C7C9] font-manrope text-base font-normal leading-[130%]">adw.tomaszlesnik@gmail.com</p>
+function Footer() {
+  return (
+    <Container>
+      <div className="bg-black mt-28 px-8 pt-6">
+        <div className="flex flex-col md:flex-row gap-8 md:gap-0 items-center justify-between">
+          <div>
+            <div className="flex items-center gap-2">
+              <div className="bg-[#1D4B5B] w-7 h-0.5" />
+              <span className="text-[#F0EEE9] text-base font-normal">
+                KONSULTACJE
+              </span>
+            </div>
+            <h1 className="text-[38px] text-[#F0EEE9]">Potrzebujesz pomocy?</h1>
+          </div>
 
-              <div className="pl-40 justify-between">
-                    <div className="text-[#FFF] font-manrope text-base font-normal leading-[130%] mb-2">
-                     <h3 >Adres:</h3>
-                     </div>
-                     <div className="text-[#C7C7C9] font-manrope text-base font-normal leading-[130%] mb-4">
-                        <h3>Kancelaria Adwokacka Adwokat Tomasz Leśnik ul.</h3>
-                        <h3>Sobieskiego 14a 33-300 Nowy Sącz</h3>
-                        </div>
-                        <div className="text-[#C7C7C9] font-manrope text-base font-normal leading-[130%]">
-                        <h3>NIP 734-353-26-46 </h3>
-                        <h3>REGON 361 864 092</h3>
-                        </div>
-                       
-                </div>
-               
-             </div>
-             <div className="bg-gray-300 w-1283 h-1" ></div>
-             <div className="my-4">
-                <p className="text-[#C7C7C9] font-manrope leading-[130%] text-[12px] font-light">Treści zamieszczone na niniejszej stronie internetowej mają charakter wyłącznie informacyjny i stanowią one wyraz osobistych poglądów ich Autora i nie mogą być one uznane za poradę prawną.</p>
-             </div>
-             </div>
-              
+          <span className="bg-[#1D4B5B] text-white py-2 px-3">
+            Zasięgnij porady online
+          </span>
         </div>
-        </Container>
-    );
+        <hr className="bg-[#C7C7C9] h-[1px] mt-10" />
+        <div className="flex flex-col md:flex-row items-center justify-center gap-52">
+
+        
+        <div className="mt-8">
+          <Logo />
+          <p className="text-[#F0EEE9] mt-5">Dane kontaktowe:</p>
+          <div className="flex items-center gap-3 mt-3">
+            <Vect1 />
+            <span className="text-[#C7C7C9]">+48 739 00 34 34</span>
+          </div>
+          <div className="flex items-center gap-3 mt-2">
+            <Vect2 />
+            <span className="text-[#C7C7C9]">adw.tomaszlesnik@gmail.com</span>
+          </div>
+        </div>
+        <div>
+          <span className="font-normal text-base">Adres:</span>
+          <p className="text-[#C7C7C9] max-w-[350px]">
+            Kancelaria Adwokacka Adwokat Tomasz Leśnik ul. Sobieskiego 14a
+            33-300 Nowy Sącz
+          </p>
+          <p className="text-[#C7C7C9] max-w-[150px] mt-6">NIP 734-353-26-46 REGON 361 864 092</p>
+        </div>
+        </div>
+        <hr className="bg-[#C7C7C9] h-[1px] mt-3" />
+        <p className="text-sm text-[#C7C7C9] text-center py-4">Treści zamieszczone na niniejszej stronie internetowej mają charakter wyłącznie informacyjny i stanowią one wyraz osobistych poglądów ich Autora i nie mogą być one uznane za poradę prawną.</p>
+      </div>
+    </Container>
+  );
 }
 export default Footer;

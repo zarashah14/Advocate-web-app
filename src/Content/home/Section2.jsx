@@ -13,18 +13,20 @@ import Vect10 from "../../assests/Vect10";
 function Section2() {
   return (
     <Container>
-      <div className="items-center">
-        <div className="flex mt-10 ml-60 items-center">
+      <div className="lg:mx-20 mx-4">
+        <div className="flex flex-col">
+        <div className="flex mt-10 items-center">
           <Line />
           <p className="text-dark font-Manrope">ZAKRES USŁUG</p>
         </div>
-        <div className="mt-10 ml-60">
+        <div>
           <h2 className="text-dark font-Manrope text-4xl">
             Moje specjalizacje
           </h2>
         </div>
+        </div>
 
-        <div className="grid md:grid-cols-3 justify-items-center my-8">
+        <div className="grid md:grid-cols-3 gap-6 justify-items-center my-8">
           <div className="flex items-center justify-center bg-[#1D4B5B] w-80 h-60 p-15 px-25 mt-2 border-spacing-2">
             <div className="top-2">
               <div className="ml-4">
